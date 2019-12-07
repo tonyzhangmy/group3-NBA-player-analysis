@@ -18,11 +18,14 @@ Analyze player's performance including 11 playtypes to determine new catogories 
 ### Some figures are in the format of .html which can't be showed inline on Jupyternotebook. So we attach the link here.
 
 [3D PCA categorizing Slider](https://plot.ly/~swishan/16)
+![](https://github.com/tonyzhangmy/group3-NBA-player-analysis/blob/master/data/data_cleaned/plots/3D.png)
 <br>
 <br>
-[2D Scatter Plot Slider](https://plot.ly/~swishan/18)
+[2D Scatter plot Slider](https://plot.ly/~swishan/18)
+![](https://github.com/tonyzhangmy/group3-NBA-player-analysis/blob/master/data/data_cleaned/plots/2D.png)
 <br>
 <br>
-[11 playtypes ](https://plot.ly/~swishan/20)
+[Playtypes frequency](https://plot.ly/~swishan/20)
+![](https://github.com/tonyzhangmy/group3-NBA-player-analysis/blob/master/data/data_cleaned/plots/Playtypes%20Frequency%20Shares.png)
 <br>
 <br>
