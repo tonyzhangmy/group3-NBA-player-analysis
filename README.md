@@ -12,10 +12,9 @@ Analyze player's performance including 11 playtypes to determine new catogories 
   * analysis: Process the data we got, including PCA and k-means.
   * visualization: Plot and visualize the results.
   
-## How to run the code:
 
 
-### Some figures are in the format of .html which can't be showed inline on Jupyternotebook. So we attach the link here.
+### Some figures are in the format of .html which can't be showed inline on Jupyternotebook. So we attached the link here.
 
 [3D PCA categorizing Slider](https://plot.ly/~swishan/16)
 ![](https://github.com/tonyzhangmy/group3-NBA-player-analysis/blob/master/data/data_cleaned/plots/3D.png)
