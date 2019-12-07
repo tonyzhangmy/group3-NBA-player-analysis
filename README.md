@@ -1,7 +1,9 @@
 # NBA Player Data Analysis
 Analyze player's performance including 11 playtypes to determine new catogories of team roles.
 
-* Intro: Playtype
+## Intro: 
+
+Traditional 5 types of team role in NBA does not apply accurately anymore beacuse of players score in different ways recently. We evaluate new grouping method by different playtypes -- how playes handle the ball.
 
 
 ## File Structure
