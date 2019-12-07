@@ -12,8 +12,21 @@ Analyze player's performance including 11 playtypes to determine new catogories 
   * analysis: Process the data we got, including PCA and k-means.
   * visualization: Plot and visualize the results.
   
-
-
+## How to use this tool:
+* Fetch data:
+  * run pull_data.py: Pull Json file from stats.nba.com.
+  * run json_to_DF.py and get_data.py: Transfer Json file to csv format.
+* Process data:
+  * run get_table.py and get_pca_aggr_data.py: Clean data and aquire yearly aggregated data.
+  * run kmeans.py: Perform PCA algorithm on cleaned data and use k-means method to get clustered data.
+  * run kmeans_top5.py: Extract information of 5 typical players from each cluster.
+* Visualize data:
+  * run graph_drawer.py: Obtain playtype frequency based on yearly average.
+  * run figure_most_efficient_playtype.py: Obtain side by side bar plot of 5-year scoring efficiency per playtype.
+  * run grapher.py: Gain 2D plots of scoring efficiency.
+  * run draw_scatter: Visualize 3D playtypes clustered data.
+  * run pie_chart.py: Playtypes distribution for typicals players.
+  
 ### Some figures are in the format of .html which can't be showed inline on Jupyternotebook. So we attached the link here.
 
 [3D PCA categorizing Slider](https://plot.ly/~swishan/16)
