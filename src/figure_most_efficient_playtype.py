@@ -32,7 +32,11 @@ def get_plot_data(aggr_data=None):
         df = pd.read_csv(
             os.path.join(aggr_data, f)
         )
-        year = int(f.split('_')[0])
+        year = "".join(
+            [c for c in f if '0' <= c <= '9']
+        )
+        year = int(year)
+
 
         for col in playtypes:
             df[col + "_pts"] = df[col + "_ppp"] * df[col + "_poss"]
