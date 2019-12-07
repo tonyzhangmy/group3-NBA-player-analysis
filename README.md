@@ -1,10 +1,25 @@
 # NBA Player Data Analysis
 Analyze player's performance including 11 playtypes to determine new catogories of team roles.
 
-## Intro: 
+## Intro 
 
-Traditional 5 types of team role in NBA does not apply accurately anymore beacuse of players score in different ways recently. We evaluate new grouping method by different playtypes -- how playes handle the ball.
+Traditional 5 types of team role in NBA does not apply accurately anymore beacuse of players score in different ways recently. We evaluate new grouping method by different playtypes -- how players handle the ball.
 
+## Enviroment
+To replicate the enviroment the project needs, run the code below
+```
+pip install -r requirements.txt
+```
+Typical packages included in this project are:
+```
+pandas          0.24.0
+numpy           1.14.2
+matplotlib      2.2.2
+scipy           0.19.1
+scikit-learn    0.19.2
+requests        2.20.1
+...
+```
 
 ## File Structure
 * data:
@@ -12,12 +27,12 @@ Traditional 5 types of team role in NBA does not apply accurately anymore beacus
   * data_cleaned: Contains the data after cleanning, only with the columns we need for 11 playtypes for all players from 2015-2019.
     * pca_data: Contains the data for PCA.
     * poss_ppp_data: Contains the data for bar graph.
-* src: Contains all the source codes for data processing and visuallization.
+* src:
   * scraping: Contains the functions for scraping and storing the data from stats.nba.com/players/.
   * analysis: Process the data we got, including PCA and k-means.
   * visualization: Plot and visualize the results.
   
-## How to use this tool:
+## How to run the code
 * Fetch data:
 ```
  -> run pull_data.py: Pull Json file from stats.nba.com.
@@ -38,7 +53,7 @@ Traditional 5 types of team role in NBA does not apply accurately anymore beacus
  -> run pie_chart.py: Playtypes distribution for typicals players.
 ```
   
-### Some figures are in the format of .html which can't be showed inline on Jupyternotebook. So we attached the link here.
+Note: Some figures are in the format of .html which can't be showed inline on Jupyternotebook. So we attached the link here.
 
 [3D PCA categorizing Slider](https://plot.ly/~swishan/16)
 ![](https://github.com/tonyzhangmy/group3-NBA-player-analysis/blob/master/data/data_cleaned/plots/3D.png)
